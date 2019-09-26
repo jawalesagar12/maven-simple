@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Mail') {
       steps {
-        build 'maven-simple'
+        echo 'Hello , I am new to Jenkins pipeline'
       }
     }
   }
